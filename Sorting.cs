@@ -115,13 +115,13 @@ namespace Algorithms_LinearSorting
             sourceArray = Radix_sort(sourceArray, 10);
             sourceArray = Radix_sort(sourceArray, 100);
 
-
+            /*
             //our visual sorting check
             foreach (var i in sourceArray)     
             {
                 Console.WriteLine(i); 
             }
-
+            */
 
         }
 

@@ -9,9 +9,9 @@ namespace Algorithms_LinearSorting
             Sorting s = new Sorting();
             timeTest t = new timeTest();
 
-           // t.Test(s.Bucket, "Bucket");
+            t.Test(s.Bucket, "Bucket");
 
-          //  t.Test(s.ByCounting, "ByCounting");
+            t.Test(s.ByCounting, "ByCounting");
 
             t.Test(s.Radix, "Radix");
 
